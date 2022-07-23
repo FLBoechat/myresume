@@ -1,6 +1,11 @@
+import profile_picture from "../../img/profile_g.png"
+
 function Home () {
     return (
-        <p>Teste</p>
+        
+        <section>
+            <img src={profile_picture} alt="profile picute"/>
+        </section>
     )
 }
 
